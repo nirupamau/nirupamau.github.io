@@ -5,18 +5,16 @@
         <title>Simple Meme Generator</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-         <style>
-        #image-container{
-            display:flex;
-        }
-    </style>
+        <link href="css/style.css" rel="stylesheet" type="text/css"></link>
+        <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-6 text-left" >
-                    <h2>Simple Meme Generator</h2>
+                    <h1>Simple Meme Generator</h1>
                 </div>
             </div>
             <div class="row">
@@ -45,7 +43,8 @@
                 </div>
             </div>
         </div>
-        <script>
+    </body>
+    <script>
         function textChangeListener(evt) {
             var id = evt.target.id;
             var text = evt.target.value;
@@ -125,5 +124,4 @@
         btm.onchange = textChangeListener;
 
     </script>
-    </body>
 </html>

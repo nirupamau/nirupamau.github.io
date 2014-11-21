@@ -1,0 +1,35 @@
+body { 
+    background: url(/img/restaurant_icons.png) repeat 0 0;
+}
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+h1 { 
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  #skills,
+  .biopic {
+    display: block;
+  }
+}
+
+
